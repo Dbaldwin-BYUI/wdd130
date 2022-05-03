@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway:wght@300&display=swap');
+
+:root {
+  --primary-color: #008DA3   ;
+  --secondary-color: #FEE59A ;
+  --accent1-color: #FFC2C2;
+  --accent2-color: #C1C1D7;
+
+  --heading-font: "Indie Flower";
+  --paragraph-font: Raleway, Helvetica, sans-serif;
+
+  --headline-color-on-white: #008DA3;  
+  --headline-color-on-color: #C1C1D7; 
+  --paragraph-color-on-white: #008DA3;
+  --paragraph-color-on-color: #C1C1D7;  
+  --paragraph-background-color: #008DA3  ;
+  --nav-link-color: #008DA3;
+  --nav-background-color: #FEE59A;
+  --nav-hover-link-color: #C1C1D7;
+  --nav-hover-background-color: #008DA3;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:var(--accent2-color);
+}
+nav a {
+    color: rgb(76, 72, 72);
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: var(--primary-color);
+    color: black;
+}
+.book, .join {
+    background-color: var(--accent2-color);
+    color: rgb(76, 72, 72);
+    text-decoration: none;
+}
+.book:hover, .join:hover {
+    background-color: var(--primary-color);
+    color: black;
+}
+#background {
+    background-color: var(--accent2-color);
+}
+.msg {
+    background-color: var(--accent2-color);
+}
+footer {
+    background-color: var(--accent2-color);
+}
+.home-title {
+    color: rgb(76, 72, 72);
+}
+h4 {
+    color: rgb(76, 72, 72);
+}
+.msg h2 {
+    color: rgb(76, 72, 72);
+}
+.msg p {
+    color: rgb(76, 72, 72);
+}
+footer h3 {
+    color: #000;
+}
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+footer a:hover {
+    color: rgb(76, 72, 72);
+}
+.icon {
+    width: 80px;
+}
+.logo {
+    width: 125px;
+}
+#hero-img {
+    width: 100%;
+}
