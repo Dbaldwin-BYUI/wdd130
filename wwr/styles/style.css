@@ -19,7 +19,23 @@
   --nav-hover-link-color: #C1C1D7;
   --nav-hover-background-color: #008DA3;
 }
-
+body {
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    background-color: #fcfbfb; 
+    margin: 0;
+    padding: 0;
+}
+.home-title {
+    font-family: var(--heading-font);
+    font-size: 2em;
+}
+.msg h2 {
+    font-family: var(--heading-font), sans-serif;
+}
+h2 {
+    margin: 0;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -40,24 +56,29 @@ main section {
 #background {
     height: 725px;
 }
-body {
-    background-color: #fcfbfb; 
-}
 header {
     background-color:var(--accent2-color);
 }
 nav a {
     color: rgb(76, 72, 72);
     text-decoration: none;
+    text-align: center;
+    padding: 35px;
 }
 nav a:hover {
     background-color: var(--primary-color);
     color: black;
+    text-align: center;
+    padding: 35px;
 }
 .book, .join {
     background-color: var(--accent2-color);
     color: rgb(76, 72, 72);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: var(--primary-color);
@@ -68,12 +89,17 @@ nav a:hover {
 }
 .msg {
     background-color: var(--accent2-color);
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: var(--accent2-color);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: rgb(76, 72, 72);
+    margin-top: 10px;
 }
 h4 {
     color: rgb(76, 72, 72);
@@ -83,6 +109,9 @@ h4 {
 }
 .msg p {
     color: rgb(76, 72, 72);
+    font-size: 0.8em;
+
+    padding-bottom: 15px;
 }
 footer h3 {
     color: #000;
@@ -94,12 +123,28 @@ footer a {
 footer a:hover {
     color: rgb(76, 72, 72);
 }
+footer .social img {
+    padding-top: 15px;
+}  
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 125px;
 }
+#logo_link   {
+    padding-top: 5px;
+}
 #hero-img {
     width: 100%;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid var(--primary-color);
+}
+main section img {
+    box-sizing: border-box;
 }
