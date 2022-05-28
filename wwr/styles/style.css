@@ -37,6 +37,7 @@ body {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2 {
     font-family: var(--heading-font), sans-serif;
@@ -110,10 +111,7 @@ footer {
     padding: 25px 50px;
     margin-top: 200px;
 }
-.home-title {
-    color: rgb(76, 72, 72);
-    margin-top: 10px;
-}
+
 h4 {
     color: rgb(76, 72, 72);
 }
