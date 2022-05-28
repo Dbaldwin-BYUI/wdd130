@@ -35,8 +35,8 @@ body {
 }
 .home-title {
     font-family: var(--heading-font);
-    color: var(--primary-color);
-    font-size: 2em;
+    color: var(--headline-color-on-color);
+    font-size: 2.4em;
     margin-top: 10px;
 }
 .msg h2 {
