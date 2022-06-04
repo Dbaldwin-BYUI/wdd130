@@ -194,6 +194,45 @@ main section img {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.page2-grid {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+}
+.h2-page2 {
+    margin: 30px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+
+}
+.rivers-idaho {
+    margin: 40px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: center;
+
+}
+#salmon-river {
+    margin: 20px;
+}
+#grey-canyon {
+    margin: 20px;
+    
+} 
+
+
+.rivers-utah {
+    margin: 40px;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    text-align: center;
+}
+.rivers-arizona {
+    margin: 40px;
+    grid-column: 1/4;
+    grid-row: 4/5;
+    text-align: center;
+}
 footer {
     background-color: var(--accent2-color);
     padding: 25px 50px;
@@ -231,7 +270,7 @@ footer .social img {
     }
 }
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .page2-grid {
         display: block;
         height: auto;
     }
