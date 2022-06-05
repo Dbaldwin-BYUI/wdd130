@@ -212,14 +212,9 @@ main section img {
     text-align: center;
 
 }
-#salmon-river {
+#salmon-river, #grey-canyon, #grand-canyon {
     margin: 20px;
 }
-#grey-canyon {
-    margin: 20px;
-    
-} 
-
 
 .rivers-utah {
     margin: 40px;
@@ -294,7 +289,7 @@ footer .social img {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .rivers-card, .camping-card, .rapids-card, #salmon-river, #grey-canyon, #grand-canyon { 
         margin: 50px auto;
         width: 60%;
     }
