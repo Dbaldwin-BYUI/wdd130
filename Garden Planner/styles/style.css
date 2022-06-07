@@ -1,4 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&family=Xanh+Mono&display=swap');
+:root {
+  --primary-color: #383F51;
+  --secondary-color: #DDDBF1;
+  --accent1-color: #3C4F76;
+  --accent2-color: #AB9F9D;
+
+  --heading-font: "Nova Cut";
+  --paragraph-font: "Xanh Mono", Helvetica, sans-serif;
+
+  --headline-color-on-white: #383F51;  
+  --headline-color-on-color: #DDDBF1; 
+  --paragraph-color-on-white: #383F51;
+  --paragraph-color-on-color: #DDDBF1;  
+  --paragraph-background-color: #383F51  ;
+  --nav-link-color: #383F51;
+  --nav-background-color: #AB9F9D;
+  --nav-hover-link-color: #DDDBF1;
+  --nav-hover-background-color: #383F51;
+}
+body {
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    background-color: rgba(124, 122, 111, .3);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: rgba(124, 122, 111, .3);
+}
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: ( 1fr, 1fr, 1fr);
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: var(--primary-color);
+    color: black;
+    text-align: center;
+    padding: 35px;
+}
+
 img {
     width: 100%;
     height: 100px;
+}
+cite {
+    font-size: 0.6em;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    #banner, .home-grid, .page2-grid, .page3-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    img { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
