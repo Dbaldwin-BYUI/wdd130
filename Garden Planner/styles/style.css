@@ -5,7 +5,7 @@
   --accent1-color: #3C4F76;
   --accent2-color: #AB9F9D;
 
-  --heading-font: "Nova Cut";
+  --heading-font: "Nova Cut", cursive;
   --paragraph-font: "Xanh Mono", Helvetica, sans-serif;
 
   --headline-color-on-white: #383F51;  
