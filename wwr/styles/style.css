@@ -377,7 +377,7 @@ footer .social img {
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .mountains, .msg, form {
         width: 80%;
         display: block;
         margin: 0 auto;
