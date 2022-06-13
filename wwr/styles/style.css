@@ -304,6 +304,7 @@ form {
     color:#000;
     /* make this element invisible until we are ready for it */
     display: none;  
+
     border-radius: 20px;     
 }
 .moveDown {
@@ -377,10 +378,14 @@ footer .social img {
     #background {
         display: none;
     }
-    .mountains, .msg, form {
+    .mountains, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+    form {
+        width: 80%;
+        margin: 15px;
     }
     footer {
         margin-top: 25px;
