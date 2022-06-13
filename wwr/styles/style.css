@@ -294,17 +294,20 @@ form {
     margin-left: .5em;
   }
   #feedback {
-    background-color: antiquewhite;
-    position: absolute;
+    background-color: var(--accent2-color);
+   /*position: absolute;*/
     top: 0;
     left: 0;
     right: 0;
-    padding: .5em;
+    padding: .9em;
+    margin: 8px;
+    color:#000;
     /* make this element invisible until we are ready for it */
-    display: none;       
+    display: none;  
+    border-radius: 20px;     
 }
 .moveDown {
-    margin-top: 3em;
+    
 }
 footer {
     background-color: var(--accent2-color);
