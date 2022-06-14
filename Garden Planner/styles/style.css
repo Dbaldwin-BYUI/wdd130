@@ -175,6 +175,7 @@ footer {
     
 footer h3 {
     color: #000;
+    font-size: .7em;
 }
 footer a {
     color: #000;
@@ -240,8 +241,9 @@ footer .social img {
 #vegetables {
     grid-column: 3/5;
     grid-row: 2/3;
-    padding: 15px;
-    margin: 20px;
+    padding: 35px;
+    margin: 50px;
+    margin-top: -5px;
 }
 #chart {
     grid-column: 1/5;
