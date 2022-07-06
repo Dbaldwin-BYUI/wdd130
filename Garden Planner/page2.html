@@ -6,6 +6,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Garden Planner</title>
             <link rel="stylesheet" href="styles/style.css">
+            <script src="script/script.js"></script>
         </head>
         <body>
            
@@ -36,12 +37,13 @@
                 <h2 id="veg-h2">
                     Garden Planner
                  </h2>
+                 
                  <p id="info">
                     Below is a list of many fruits and vegetables along with 
                     data for each on area size needed to plant, watering needs, 
                     days till harvesting and more.
                   </p>
-             
+                  
 
                  <div id="vegetables">
                     <img src="images/dan-cristian-padure-mIyZDPhuyY0-.jpg" alt="Vegetables">
@@ -53,9 +55,10 @@
                       June 14, 2022, from https://unsplash.com/photos/mIyZDPhuyY0 
                     </cite>
                  </div>
-    
+                 <button id="btn" onclick="sortTable()">Sort Alphabetically</button>
+                
                 <div id="chart" style="overflow-x:auto; overflow-y:auto;">
-                    <table>
+                    <table id="table-plants">
                       <tr>
                         <th>Fruit / Vegetable</th>
                         <th>Days till harvest</th>
